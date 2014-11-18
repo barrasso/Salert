@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A816AE1A1C0A1E00489CC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A816AD1A1C0A1E00489CC9 /* main.m */; };
+		04A816B11A1C0A1E00489CC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A816B01A1C0A1E00489CC9 /* AppDelegate.m */; };
+		04A816B41A1C0A1E00489CC9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A816B31A1C0A1E00489CC9 /* ViewController.m */; };
+		04A816B71A1C0A1E00489CC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A816B51A1C0A1E00489CC9 /* Main.storyboard */; };
+		04A816B91A1C0A1E00489CC9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A816B81A1C0A1E00489CC9 /* Images.xcassets */; };
+		04A816BC1A1C0A1E00489CC9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A816BA1A1C0A1E00489CC9 /* LaunchScreen.xib */; };
+		04A816C81A1C0A1F00489CC9 /* SalertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A816C71A1C0A1F00489CC9 /* SalertTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04A816C21A1C0A1F00489CC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04A816A01A1C0A1E00489CC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04A816A71A1C0A1E00489CC9;
+			remoteInfo = Salert;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04A816A81A1C0A1E00489CC9 /* Salert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Salert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A816AC1A1C0A1E00489CC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A816AD1A1C0A1E00489CC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04A816AF1A1C0A1E00489CC9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04A816B01A1C0A1E00489CC9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04A816B21A1C0A1E00489CC9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04A816B31A1C0A1E00489CC9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04A816B61A1C0A1E00489CC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04A816B81A1C0A1E00489CC9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04A816BB1A1C0A1E00489CC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		04A816C11A1C0A1F00489CC9 /* SalertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SalertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A816C61A1C0A1F00489CC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A816C71A1C0A1F00489CC9 /* SalertTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SalertTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04A816A51A1C0A1E00489CC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A816BE1A1C0A1F00489CC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04A8169F1A1C0A1E00489CC9 = {
+			isa = PBXGroup;
+			children = (
+				04A816AA1A1C0A1E00489CC9 /* Salert */,
+				04A816C41A1C0A1F00489CC9 /* SalertTests */,
+				04A816A91A1C0A1E00489CC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04A816A91A1C0A1E00489CC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04A816A81A1C0A1E00489CC9 /* Salert.app */,
+				04A816C11A1C0A1F00489CC9 /* SalertTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04A816AA1A1C0A1E00489CC9 /* Salert */ = {
+			isa = PBXGroup;
+			children = (
+				04A816AF1A1C0A1E00489CC9 /* AppDelegate.h */,
+				04A816B01A1C0A1E00489CC9 /* AppDelegate.m */,
+				04A816B21A1C0A1E00489CC9 /* ViewController.h */,
+				04A816B31A1C0A1E00489CC9 /* ViewController.m */,
+				04A816B51A1C0A1E00489CC9 /* Main.storyboard */,
+				04A816B81A1C0A1E00489CC9 /* Images.xcassets */,
+				04A816BA1A1C0A1E00489CC9 /* LaunchScreen.xib */,
+				04A816AB1A1C0A1E00489CC9 /* Supporting Files */,
+			);
+			path = Salert;
+			sourceTree = "<group>";
+		};
+		04A816AB1A1C0A1E00489CC9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04A816AC1A1C0A1E00489CC9 /* Info.plist */,
+				04A816AD1A1C0A1E00489CC9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04A816C41A1C0A1F00489CC9 /* SalertTests */ = {
+			isa = PBXGroup;
+			children = (
+				04A816C71A1C0A1F00489CC9 /* SalertTests.m */,
+				04A816C51A1C0A1F00489CC9 /* Supporting Files */,
+			);
+			path = SalertTests;
+			sourceTree = "<group>";
+		};
+		04A816C51A1C0A1F00489CC9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04A816C61A1C0A1F00489CC9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04A816A71A1C0A1E00489CC9 /* Salert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A816CB1A1C0A1F00489CC9 /* Build configuration list for PBXNativeTarget "Salert" */;
+			buildPhases = (
+				04A816A41A1C0A1E00489CC9 /* Sources */,
+				04A816A51A1C0A1E00489CC9 /* Frameworks */,
+				04A816A61A1C0A1E00489CC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Salert;
+			productName = Salert;
+			productReference = 04A816A81A1C0A1E00489CC9 /* Salert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04A816C01A1C0A1F00489CC9 /* SalertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A816CE1A1C0A1F00489CC9 /* Build configuration list for PBXNativeTarget "SalertTests" */;
+			buildPhases = (
+				04A816BD1A1C0A1F00489CC9 /* Sources */,
+				04A816BE1A1C0A1F00489CC9 /* Frameworks */,
+				04A816BF1A1C0A1F00489CC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04A816C31A1C0A1F00489CC9 /* PBXTargetDependency */,
+			);
+			name = SalertTests;
+			productName = SalertTests;
+			productReference = 04A816C11A1C0A1F00489CC9 /* SalertTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04A816A01A1C0A1E00489CC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = MEB;
+				TargetAttributes = {
+					04A816A71A1C0A1E00489CC9 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					04A816C01A1C0A1F00489CC9 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 04A816A71A1C0A1E00489CC9;
+					};
+				};
+			};
+			buildConfigurationList = 04A816A31A1C0A1E00489CC9 /* Build configuration list for PBXProject "Salert" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04A8169F1A1C0A1E00489CC9;
+			productRefGroup = 04A816A91A1C0A1E00489CC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04A816A71A1C0A1E00489CC9 /* Salert */,
+				04A816C01A1C0A1F00489CC9 /* SalertTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04A816A61A1C0A1E00489CC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A816B71A1C0A1E00489CC9 /* Main.storyboard in Resources */,
+				04A816BC1A1C0A1E00489CC9 /* LaunchScreen.xib in Resources */,
+				04A816B91A1C0A1E00489CC9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A816BF1A1C0A1F00489CC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04A816A41A1C0A1E00489CC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A816B41A1C0A1E00489CC9 /* ViewController.m in Sources */,
+				04A816B11A1C0A1E00489CC9 /* AppDelegate.m in Sources */,
+				04A816AE1A1C0A1E00489CC9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A816BD1A1C0A1F00489CC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A816C81A1C0A1F00489CC9 /* SalertTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04A816C31A1C0A1F00489CC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04A816A71A1C0A1E00489CC9 /* Salert */;
+			targetProxy = 04A816C21A1C0A1F00489CC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04A816B51A1C0A1E00489CC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04A816B61A1C0A1E00489CC9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04A816BA1A1C0A1E00489CC9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04A816BB1A1C0A1E00489CC9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04A816C91A1C0A1F00489CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04A816CA1A1C0A1F00489CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04A816CC1A1C0A1F00489CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Salert/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04A816CD1A1C0A1F00489CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Salert/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04A816CF1A1C0A1F00489CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SalertTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Salert.app/Salert";
+			};
+			name = Debug;
+		};
+		04A816D01A1C0A1F00489CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SalertTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Salert.app/Salert";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04A816A31A1C0A1E00489CC9 /* Build configuration list for PBXProject "Salert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A816C91A1C0A1F00489CC9 /* Debug */,
+				04A816CA1A1C0A1F00489CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A816CB1A1C0A1F00489CC9 /* Build configuration list for PBXNativeTarget "Salert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A816CC1A1C0A1F00489CC9 /* Debug */,
+				04A816CD1A1C0A1F00489CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04A816CE1A1C0A1F00489CC9 /* Build configuration list for PBXNativeTarget "SalertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A816CF1A1C0A1F00489CC9 /* Debug */,
+				04A816D01A1C0A1F00489CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04A816A01A1C0A1E00489CC9 /* Project object */;
+}
