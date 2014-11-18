@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		04A816AE1A1C0A1E00489CC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A816AD1A1C0A1E00489CC9 /* main.m */; };
 		04A816B11A1C0A1E00489CC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A816B01A1C0A1E00489CC9 /* AppDelegate.m */; };
-		04A816B41A1C0A1E00489CC9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A816B31A1C0A1E00489CC9 /* ViewController.m */; };
 		04A816B71A1C0A1E00489CC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A816B51A1C0A1E00489CC9 /* Main.storyboard */; };
 		04A816B91A1C0A1E00489CC9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A816B81A1C0A1E00489CC9 /* Images.xcassets */; };
 		04A816BC1A1C0A1E00489CC9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A816BA1A1C0A1E00489CC9 /* LaunchScreen.xib */; };
 		04A816C81A1C0A1F00489CC9 /* SalertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A816C71A1C0A1F00489CC9 /* SalertTests.m */; };
+		04A816D31A1C0ABE00489CC9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A816D21A1C0ABE00489CC9 /* MainViewController.m */; };
+		04A816DE1A1C0B7900489CC9 /* libEstimoteSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A816DD1A1C0B7900489CC9 /* libEstimoteSDK.a */; };
+		04A816E01A1C0BA200489CC9 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A816DF1A1C0BA200489CC9 /* CoreBluetooth.framework */; };
+		04A816E21A1C0BAA00489CC9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A816E11A1C0BAA00489CC9 /* CoreLocation.framework */; };
+		04A816E41A1C0BAF00489CC9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A816E31A1C0BAF00489CC9 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +36,25 @@
 		04A816AD1A1C0A1E00489CC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04A816AF1A1C0A1E00489CC9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04A816B01A1C0A1E00489CC9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		04A816B21A1C0A1E00489CC9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		04A816B31A1C0A1E00489CC9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		04A816B61A1C0A1E00489CC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04A816B81A1C0A1E00489CC9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		04A816BB1A1C0A1E00489CC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		04A816C11A1C0A1F00489CC9 /* SalertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SalertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A816C61A1C0A1F00489CC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04A816C71A1C0A1F00489CC9 /* SalertTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SalertTests.m; sourceTree = "<group>"; };
+		04A816D11A1C0ABE00489CC9 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		04A816D21A1C0ABE00489CC9 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		04A816D61A1C0B7900489CC9 /* ESTBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBeacon.h; sourceTree = "<group>"; };
+		04A816D71A1C0B7900489CC9 /* ESTBeaconDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBeaconDefinitions.h; sourceTree = "<group>"; };
+		04A816D81A1C0B7900489CC9 /* ESTBeaconFirmwareInfoVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBeaconFirmwareInfoVO.h; sourceTree = "<group>"; };
+		04A816D91A1C0B7900489CC9 /* ESTBeaconFirmwareVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBeaconFirmwareVO.h; sourceTree = "<group>"; };
+		04A816DA1A1C0B7900489CC9 /* ESTBeaconManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBeaconManager.h; sourceTree = "<group>"; };
+		04A816DB1A1C0B7900489CC9 /* ESTBeaconRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBeaconRegion.h; sourceTree = "<group>"; };
+		04A816DC1A1C0B7900489CC9 /* ESTBeaconVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBeaconVO.h; sourceTree = "<group>"; };
+		04A816DD1A1C0B7900489CC9 /* libEstimoteSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libEstimoteSDK.a; sourceTree = "<group>"; };
+		04A816DF1A1C0BA200489CC9 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		04A816E11A1C0BAA00489CC9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		04A816E31A1C0BAF00489CC9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +62,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A816E41A1C0BAF00489CC9 /* SystemConfiguration.framework in Frameworks */,
+				04A816E21A1C0BAA00489CC9 /* CoreLocation.framework in Frameworks */,
+				04A816E01A1C0BA200489CC9 /* CoreBluetooth.framework in Frameworks */,
+				04A816DE1A1C0B7900489CC9 /* libEstimoteSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +83,8 @@
 			isa = PBXGroup;
 			children = (
 				04A816AA1A1C0A1E00489CC9 /* Salert */,
+				04A816D41A1C0B7900489CC9 /* EstimoteSDK */,
+				04A816E51A1C0C4100489CC9 /* Frameworks */,
 				04A816C41A1C0A1F00489CC9 /* SalertTests */,
 				04A816A91A1C0A1E00489CC9 /* Products */,
 			);
@@ -83,8 +104,8 @@
 			children = (
 				04A816AF1A1C0A1E00489CC9 /* AppDelegate.h */,
 				04A816B01A1C0A1E00489CC9 /* AppDelegate.m */,
-				04A816B21A1C0A1E00489CC9 /* ViewController.h */,
-				04A816B31A1C0A1E00489CC9 /* ViewController.m */,
+				04A816D11A1C0ABE00489CC9 /* MainViewController.h */,
+				04A816D21A1C0ABE00489CC9 /* MainViewController.m */,
 				04A816B51A1C0A1E00489CC9 /* Main.storyboard */,
 				04A816B81A1C0A1E00489CC9 /* Images.xcassets */,
 				04A816BA1A1C0A1E00489CC9 /* LaunchScreen.xib */,
@@ -117,6 +138,39 @@
 				04A816C61A1C0A1F00489CC9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04A816D41A1C0B7900489CC9 /* EstimoteSDK */ = {
+			isa = PBXGroup;
+			children = (
+				04A816D51A1C0B7900489CC9 /* Headers */,
+				04A816DD1A1C0B7900489CC9 /* libEstimoteSDK.a */,
+			);
+			path = EstimoteSDK;
+			sourceTree = "<group>";
+		};
+		04A816D51A1C0B7900489CC9 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				04A816D61A1C0B7900489CC9 /* ESTBeacon.h */,
+				04A816D71A1C0B7900489CC9 /* ESTBeaconDefinitions.h */,
+				04A816D81A1C0B7900489CC9 /* ESTBeaconFirmwareInfoVO.h */,
+				04A816D91A1C0B7900489CC9 /* ESTBeaconFirmwareVO.h */,
+				04A816DA1A1C0B7900489CC9 /* ESTBeaconManager.h */,
+				04A816DB1A1C0B7900489CC9 /* ESTBeaconRegion.h */,
+				04A816DC1A1C0B7900489CC9 /* ESTBeaconVO.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		04A816E51A1C0C4100489CC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04A816DF1A1C0BA200489CC9 /* CoreBluetooth.framework */,
+				04A816E11A1C0BAA00489CC9 /* CoreLocation.framework */,
+				04A816E31A1C0BAF00489CC9 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +222,7 @@
 				TargetAttributes = {
 					04A816A71A1C0A1E00489CC9 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 3GBQ2H4QX7;
 					};
 					04A816C01A1C0A1F00489CC9 = {
 						CreatedOnToolsVersion = 6.1;
@@ -219,9 +274,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04A816B41A1C0A1E00489CC9 /* ViewController.m in Sources */,
 				04A816B11A1C0A1E00489CC9 /* AppDelegate.m in Sources */,
 				04A816AE1A1C0A1E00489CC9 /* main.m in Sources */,
+				04A816D31A1C0ABE00489CC9 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,8 +398,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Mark Barrasso (3GBQ2H4QX7)";
 				INFOPLIST_FILE = Salert/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EstimoteSDK",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -353,8 +413,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Mark Barrasso (3GBQ2H4QX7)";
 				INFOPLIST_FILE = Salert/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EstimoteSDK",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
