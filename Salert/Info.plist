@@ -35,5 +35,7 @@
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>This application monitors your location to show you promotional offers in shops you're passing by.</string>
 </dict>
 </plist>

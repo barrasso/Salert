@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ESTBeacon.h"
 
 @interface MainViewController : UIViewController
+
+- (id)initWithBeacon:(ESTBeacon *)beacon;
+
+// distance label
+@property (strong, nonatomic) IBOutlet UILabel *distanceLabel;
 
 @end
