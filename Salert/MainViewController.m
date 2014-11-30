@@ -50,26 +50,27 @@
     if ([self.beaconManager respondsToSelector:@selector(requestAlwaysAuthorization)])
         [self.beaconManager requestAlwaysAuthorization];
     
+    // hardcode blueberry beacon
     NSUUID *myUUID = [[NSUUID alloc] initWithUUIDString:@"b9407f30-f5f8-466e-aff9-25556b57fe6d"];
     NSNumber* major = @8799;
     NSNumber* minor = @48808;
     
     // setup beacon region
-    self.beaconRegion = [[ESTBeaconRegion alloc] initWithProximityUUID:myUUID
-                                                                 major:[major unsignedIntegerValue]
-                                                                 minor:[minor unsignedIntegerValue]                                                         identifier:@"RegionIdentifier"];
+    self.beaconRegion = [[ESTBeaconRegion alloc]
+    initWithProximityUUID:myUUID
+    major:[major unsignedIntegerValue]
+    minor:[minor unsignedIntegerValue]
+    identifier:@"RegionIdentifier"];
     
     // start looking for estimote beacons in region
     // when beacon ranged beaconManager:didEnterRegion:
     // and beaconManager:didExitRegion: invoked
     [self.beaconManager startMonitoringForRegion:self.beaconRegion];
-    
     [self.beaconManager requestStateForRegion:self.beaconRegion];
     
     // start looking for estimote beacons in region
     // when beacon ranged beaconManager:didRangeBeacons:inRegion: invoked
     [self.beaconManager startRangingBeaconsInRegion:self.beaconRegion];
-    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -81,11 +82,12 @@
 
 - (void)beaconManager:(ESTBeaconManager *)manager monitoringDidFailForRegion:(ESTBeaconRegion *)region withError:(NSError *)error
 {
-    UIAlertView* errorView = [[UIAlertView alloc] initWithTitle:@"Monitoring error"
-                                                        message:error.localizedDescription
-                                                       delegate:nil
-                                              cancelButtonTitle:@"OK"
-                                              otherButtonTitles:nil];
+    UIAlertView* errorView = [[UIAlertView alloc]
+    initWithTitle:@"Monitoring error"
+    message:error.localizedDescription
+    delegate:nil
+    cancelButtonTitle:@"OK"
+    otherButtonTitles:nil];
     
     [errorView show];
 }
@@ -137,15 +139,5 @@
                 break;
         }
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
